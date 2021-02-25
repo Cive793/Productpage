@@ -150,3 +150,15 @@ h5 {
     width: 350px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .product {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .breadCrumbs {
+    margin-left: 40px;
+  }
+}
